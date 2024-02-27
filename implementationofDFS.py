@@ -31,3 +31,7 @@ if __name__ == "__main__":
 
     print("DFS Traversal:")
     g.dfs(2)  
+
+OUTPUT:-
+DFS Traversal:
+2 0 1 3
