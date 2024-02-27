@@ -34,3 +34,14 @@ if result:
     print("Solution found:", result)
 else:
     print("No solution found.")
+
+OUTPUT:-
+Fill jug 1 (5 liters)
+Pour 3 liters from jug 1 to jug 2
+Empty jug 2
+Pour 2 liters from jug 1 to jug 2
+Refill jug 1
+Fill jug 1 (5 liters)
+Pour 1 liters from jug 1 to jug 2
+Empty jug 2
+target reached! and optimal  solution :  4
