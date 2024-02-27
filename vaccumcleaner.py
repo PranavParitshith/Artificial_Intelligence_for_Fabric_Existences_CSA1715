@@ -41,3 +41,164 @@ if __name__ == "__main__":
     grid_size = 3  
     cleaner = VacuumCleaner(grid_size)
     cleaner.clean()
+
+OUTPUT:-
+Initial Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (1, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 0)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 0)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 0)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (2, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (1, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (1, 2)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (1, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (1, 2)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (1, 2)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (0, 2)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (1, 2)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (1, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (0, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (0, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (0, 1)
+Cell is already clean.
+
+Updated Grid:
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Current Position: (0, 0)
+Cell is dirty. Cleaning...
+
+Updated Grid:
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+All cells are clean. Cleaning process completed.
