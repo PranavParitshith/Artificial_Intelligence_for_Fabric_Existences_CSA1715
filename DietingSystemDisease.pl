@@ -43,3 +43,7 @@ check_food_suitability_helper([Food|Rest]) :-
 %
 % To check the suitability of foods for diabetes:
 % ?- check_food_suitability(diabetes).
+
+OUPUT:-
+?- suggest_diet(diabetes,Diet).
+Recommended diet is fruits
