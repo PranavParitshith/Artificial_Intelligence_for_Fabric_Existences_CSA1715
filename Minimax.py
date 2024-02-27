@@ -109,3 +109,42 @@ while True:
         print_board()
         print("It's a tie!")
         break
+
+OUTPUT:-
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+Enter your move (1-9): 2
+O | X |  
+---------
+  |   |  
+---------
+  |   |  
+Enter your move (1-9): 3
+O | X | X
+---------
+O |   |  
+---------
+  |   |  
+Enter your move (1-9): 4
+Invalid move. Try again.
+O | X | X
+---------
+O |   |  
+---------
+  |   |  
+Enter your move (1-9): 9
+O | X | X
+---------
+O |   | O
+---------
+  |   | X
+Enter your move (1-9): 5
+O | X | X
+---------
+O | X | O
+---------
+O |   | X
+You lose! Better luck next time.
