@@ -28,3 +28,7 @@ start_node = 'A'
 best_path, min_cost = tsp_brute_force(graph, start_node)
 print("Best Path:", best_path)
 print("Minimum Cost:", min_cost)
+
+OUTPUT:-
+Best Path: ('A', 'D', 'C', 'B', 'A')
+Minimum Cost: 14
