@@ -24,3 +24,9 @@ fruits_with_color(Color) :-
 %
 % To find all fruits with a specified color:
 % ?- fruits_with_color(red).
+
+
+OUTPUT:-
+?- fruits_with_color(Red).
+Strawberry
+Apple
