@@ -39,3 +39,7 @@ treatment(measles) :-
 
 % Example query:
 % ?- diagnosis(john, Disease).
+
+OUTPUT:- 
+?- diagnosis(john, Disease).
+Treatment for measles: Rest, fluids, and over-the-counter fever reducers. Vaccination can prevent measles.
