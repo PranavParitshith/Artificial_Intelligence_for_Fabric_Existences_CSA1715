@@ -16,3 +16,8 @@ student_teacher_course(Student) :-
     teaches(Teacher, Course),
     course_code(Course, Code),
     format('~w is enrolled in ~w taught by ~w. Course code: ~w~n', [Student, Course, Teacher, Code]).
+
+OUTPUT:-
+?- getcode(john).
+john is enrolled in science taught by emma. Course code: 302
+true.
