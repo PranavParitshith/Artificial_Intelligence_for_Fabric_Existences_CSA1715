@@ -26,3 +26,6 @@ if __name__ == "__main__":
     g.add_edge(3, 3)
     print("BFS Traversal:")
     g.bfs(2)  # Starting BFS from vertex 2
+
+BFS Traversal:
+2 0 3 1 
