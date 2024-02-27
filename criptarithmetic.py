@@ -17,3 +17,6 @@ if __name__ == "__main__":
             print(f"{key} = {value}")
     else:
         print("No solution found.")
+
+OUTPUT:-
+{'X': 1, 'E': 2, 'S': 3, 'F': 0, 'V': 4, 'I': 7}
