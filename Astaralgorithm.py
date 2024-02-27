@@ -28,3 +28,6 @@ start_node = 'A'
 end_node = 'D'
 shortest_path_cost = astar(graph, start_node, end_node)
 print(f"The shortest path cost from {start_node} to {end_node} is: {shortest_path_cost}")
+
+OUTPUT:-
+The shortest path cost from A to D is: 4
