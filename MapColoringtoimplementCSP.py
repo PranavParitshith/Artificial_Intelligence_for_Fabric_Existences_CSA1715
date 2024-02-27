@@ -51,3 +51,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+OUTPUT:-
+Solution found:
+WA: R
+NT: G
+SA: B
+Q: R
+NSW: G
+V: R
+T: R
