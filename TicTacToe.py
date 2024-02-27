@@ -56,3 +56,35 @@ def play_game():
 
 if __name__ == "__main__":
     play_game()
+
+OUTPUT:-
+ |   |  
+-----
+  |   |  
+-----
+  |   |  
+-----
+Enter the row (0, 1, or 2): 1
+Enter the column (0, 1, or 2): 2
+  |   |  
+-----
+  |   | X
+-----
+  |   |  
+-----
+Enter the row (0, 1, or 2): 2
+Enter the column (0, 1, or 2): 2
+  |   |  
+-----
+  |   | X
+-----
+  |   | O
+-----
+Enter the row (0, 1, or 2): 1
+Enter the column (0, 1, or 2): 1
+  |   |  
+-----
+  | X | X
+-----
+  |   | O
+-----
