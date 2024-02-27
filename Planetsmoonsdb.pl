@@ -25,10 +25,14 @@ orbits(ariel, uranus).
 orbits(miranda, uranus).
 orbits(triton, neptune).
 
-% Predicate to find moons of a given planet
-moons_of_planet(Planet, Moons) :-
-    findall(Moon, orbits(Moon, Planet), Moons).
 
-% Example usage:
-% ?- moons_of_planet(jupiter, JupiterMoons).
-% JupiterMoons = [ganymede, callisto, io, europa].
+OUTPUT:- 
+?- getdetail(earth).
+earth is the 3
+ in the solar system and its moon is moon
+true.
+
+?- getdetail(venus).
+venus is the 2
+ in the solar system and its moon is z102
+true.
