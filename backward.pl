@@ -11,3 +11,7 @@ fish(X) :- has_scales(X), swims(X).
 % Define a goal for backward chaining.
 is_bird(X) :- bird(X).
 is_fish(X) :- fish(X).
+
+OUTPUT:-
+?- is_bird(x).
+false.
