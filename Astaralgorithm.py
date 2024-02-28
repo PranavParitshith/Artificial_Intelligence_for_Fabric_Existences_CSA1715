@@ -1,33 +1,78 @@
-import heapq
-
-def astar(graph, start, end):
-    open_list = []
-    closed_set = set()
-    heapq.heappush(open_list, (0, start))
-    while open_list:
-        cost, current_node = heapq.heappop(open_list)
-        if current_node == end:
-            return cost
-        if current_node in closed_set:
-            continue
-        closed_set.add(current_node)
-        for neighbor, neighbor_cost in graph[current_node].items():
-            if neighbor not in closed_set:
-                heapq.heappush(open_list, (cost + neighbor_cost, neighbor))
-    return float('inf')
-
-# Example Usage
 graph = {
-    'A': {'B': 1, 'C': 4},
-    'B': {'A': 1, 'C': 2, 'D': 5},
-    'C': {'A': 4, 'B': 2, 'D': 1},
-    'D': {'B': 5, 'C': 1}
+    'A' : ['B','C'],
+    'B' : ['F','E'],
+    'C' : ['E','D'],
+    'D' : ['E'],
+    'E' : ['G'],
+    'F' : ['G'],
+    'G' : []
 }
 
-start_node = 'A'
-end_node = 'D'
-shortest_path_cost = astar(graph, start_node, end_node)
-print(f"The shortest path cost from {start_node} to {end_node} is: {shortest_path_cost}")
+heuristic = {
+    'A' : 14,
+    'B' : 12,
+    'C' : 11,
+    'D' : 6,
+    'E' : 4,
+    'F' : 11,
+    'G' : 0
+}
 
-OUTPUT:-
-The shortest path cost from A to D is: 4
+visited = []
+queue = []
+
+def Astar(visited,graph,heuristic,node):
+    visited.append(node)
+    queue.append(node)
+    final = []
+    while queue:
+        m = queue.pop(0)
+        final.append(m)
+        print(m, end = " ")
+        dict1 = {}
+        mini = 100000
+        for n in graph[m]:
+            if n not in visited:
+                print("\nEnter the Cost from ",m," to ",n)
+                x = int(input("\nEnter : "))
+                sum1 = x + heuristic[n]
+                if(mini > sum1):
+                    mini = sum1
+                    dict1[n] = sum1
+                
+        if dict1:
+            value = min(dict1, key=dict1.get)
+            visited.append(value)
+            queue.append(value)
+            
+
+    print(final)
+Astar(visited,graph,heuristic,'A')
+
+OUTPUT:
+A 
+Enter the Cost from  A  to  B
+
+Enter : 4
+
+Enter the Cost from  A  to  C
+
+Enter : 3
+C 
+Enter the Cost from  C  to  E
+
+Enter : 10
+
+Enter the Cost from  C  to  D
+
+Enter : 7
+D 
+Enter the Cost from  D  to  E
+
+Enter : 2
+E 
+Enter the Cost from  E  to  G
+
+Enter : 5
+
+['A', 'C', 'D', 'E', 'G']
